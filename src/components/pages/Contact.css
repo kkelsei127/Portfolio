@@ -1,0 +1,51 @@
+/*~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~contact form~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~*/
+.dash{
+    border-style: dashed;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: #adc9f4;
+    border-spacing: 90px;
+}
+.blue{
+	font-weight: 600;
+	font-family: 'Caveat', cursive;
+	font-size: 40px;
+	color:#496084;
+	margin-left: 1px;
+	margin-right: 1px;
+	line-height: 1.0;
+}
+.wrapper{
+	margin-top: 100px;
+}
+
+.contactform{
+	margin-top: 20px;
+	margin-bottom: 115px;
+}
+.form-group{
+	margin-bottom: 15px;
+	padding-top: 10px;
+}
+.send{
+	margin-top: 10px;
+	background-color: #7b99c5;
+	border-color: #496084;
+}
+
+.btn:hover{
+	background-color: #496084;
+}
+
+.fa-solid{
+	margin-left: 5px;
+}
+.text{
+	margin-left: 65px;
+	margin-top: 25px;
+	max-width: 450px;
+	padding-top: 10px;
+}

@@ -1,0 +1,141 @@
+.bg{
+	background-color: #FFEBFA;
+	/* border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right:none;
+	border-color: #004A46;*/ 
+}
+/* custom color pallette 
+  
+
+.green{
+	color: #417768;
+
+}
+
+.darkgreen{
+	
+	color: #004A46;
+}
+
+.darkpink{
+	color: #FFA3A0;
+} */
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~WAVES~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+*{
+	margin: 0;
+	padding: 0;
+  }
+ .waves{
+	position: relative;
+	width: 100%;
+	height: 80vh;
+	background: #adc9f4;
+	overflow: hidden;
+    border-style: dashed;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: #fffcfe;
+    border-spacing: 90px;
+  }
+  .waves .air{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+	background-size: 1000px 100px
+  }
+  .waves .air.air1{
+	animation: wave 30s linear infinite;
+	z-index: 1000;
+	opacity: 1;
+	animation-delay: 0s;
+	bottom: 0;
+  }
+  .waves .air.air2{
+	animation: wave2 15s linear infinite;
+	z-index: 999;
+	opacity: 0.5;
+	animation-delay: -5s;
+	bottom: 10px;
+  }
+  .waves .air.air3{
+	animation: wave 30s linear infinite;
+	z-index: 998;
+	opacity: 0.2;
+	animation-delay: -2s;
+	bottom: 15px;
+  }
+  .waves .air.air4{
+	animation: wave2 5s linear infinite;
+	z-index: 997;
+	opacity: 0.7;
+	animation-delay: -5s;
+	bottom: 20px;
+  }
+  @keyframes wave{
+	0%{
+	  background-position-x: 0px; 
+	}
+	100%{
+	  background-position-x: 1000px; 
+	}
+  }
+  @keyframes wave2{
+	0%{
+	  background-position-x: 0px; 
+	}
+	100%{
+	  background-position-x: -1000px; 
+	}
+  }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~FONT~~OVERLAY~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.overlay {
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* height: 100%; */
+}
+
+.home-content {
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	/* transform: translateY(-210%); */
+	text-align: center;
+	/* color: #fde7ff; */
+    color: #271c70fd;
+}
+
+.start{
+    margin: 25px;
+    background-color: #e6a6cac1;
+    border: #d9c1c0;
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(248, 239, 239);
+    font-size: 16px;
+}
+
+.start:hover {
+    background-color: #cda1c1;
+    border: #d9c1c0;
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(248, 239, 239);
+    
+}

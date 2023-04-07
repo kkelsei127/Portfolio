@@ -1,0 +1,29 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~FOOTER SECTION~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.footer{
+	margin-top: 17px;
+	display: flex;
+	justify-content: center;
+	/* position: sticky; */
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.ftr{
+	border-style: solid;
+	border-color: #004A46;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+	width: 645px;
+	margin-bottom: 5px;
+}
+
+.icons{
+	width:110px;
+}
+.icon{
+	padding-right: 20px;
+	
+}

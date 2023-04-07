@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Kumbh+Sans:wght@300&family=Red+Hat+Display&family=Sarala&family=Urbanist:wght@500&display=swap');
+@import url('https://kit.fontawesome.com/e8b52d61f5.js');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Cedarville', 'Kumbh Sans',  'Red Hat', 'Urbanist', 'Caveat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

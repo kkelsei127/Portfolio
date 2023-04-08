@@ -1,192 +1,191 @@
 import './Works.css';
 import Carousel from 'react-bootstrap/Carousel';
-// import ReactBootstrapCarousel from "react-bootstrap-carousel";
-// import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+
 
 function Works() {
     return (
         <div className="dash">
-            {/* this renders the first row */}
             <div className=" row rowcont">
-                {/* this is the first column, left */}
                 <div className="col-md-6">
-                    {/* empty buffer row, might not be needed */}
-                    <div className="row projtitle"><h2>ReciBEET</h2></div>
+                    <div className="row projtitle"><p>ReciBEET</p></div>
                     <div className="row projdesc">
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
-                        <div className="col-md-8">
-                            <a href="https://recibeet-2.herokuapp.com"><h5>ReciBeet</h5></a>
-                            <p>A team project created using MySQL, JavaScript, Node, Axios and Bootstrap
-                            The perfect recipe finder for all things vegetarian! Let us know whats in your fridge
-                            and we will do the meal planning for you! Have a recipe already in mind, search or create!</p>
-                            <a href="https://github.com/torresorona/ReciBEET"><i className="fa-brands fa-github" ></i></a>
-                        </div>
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
+                            <p>A team project created using MySQL, JavaScript, Node, Axios and Bootstrap. <br/>
+                            ReciBeet is the perfect recipe finder for all things vegetarian! Leveraging the Spoonacular
+                            API, you can search for recipes by name or you can let us know whats already in your fridge or 
+                            pantry and we will do the meal planning for you! Have an awesome family recipe? Utilize the create
+                            recipe function to have it saved and displayed for other users! Each user profile features both their 
+                            saved and personally created recipes!</p>
+                            <h5>
+                                <a href="https://github.com/torresorona/ReciBEET"><i className="fa-brands fa-github" ></i></a>
+                                <a href="https://recibeet-2.herokuapp.com"><i className="fa-solid fa-location-arrow"></i></a>
+                            </h5>
+                            </div>
+                        <div className="col-md-1"></div>
                     </div>
                 </div>
-                {/* this is the second column, right */}
                 <div className='col-md-6'>
-                    {/* empty buffer row, might not be needed */}
                     <div className="row carouselcont"></div>
                     <div className="row">
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
-                        <div className="col-md-8">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
                             <Carousel slide={false} interval={null} className="shadow">
-                                <Carousel.Item>
-                                    <img className="d-block w-100 workimg" src="../images/recibeetlogo.png" alt="Recibeet project logo, displaying a happy beet with a chefs hat"/>
+                                <Carousel.Item> 
+                                    <img className="d-block w-100 workimg" src="../images/recibeetlogo.svg" alt="Recibeet project logo, displaying a happy beet with a chefs hat"/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img className="d-block w-100" src="holder.js/800x400?text=Second slide&bg=282c34" alt="Second slide"/>
+                                    <img className="d-block w-100 workimg" src="../images/rbhome.svg" alt="Recibeet home page with featured user recipes"/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=20232a" alt="Third slide"/>
+                                    <img className="d-block w-100 workimg" src="../images/rbrec.svg" alt="Recipe page showcasing ingredients and directions with an aside of user options"/>
                                 </Carousel.Item>
                             </Carousel>
                         </div>
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
+                        <div className="col-md-1"></div>
                     </div>
                 </div>
             </div>
 {/* ///////////////////////////ROW TWO//////////////////////////////////////////// */}
             <div className="row rowcont">
-                {/* this is the first column, left */}
+                <div className="row unl">
+                    <div className="col-md-5"></div>
+                    <div className="col-md-2">
+                        <img src="../images/diamond.svg" className="d-block w-100 dmnd" alt="diamond with a line"/>  
+                    </div>
+                    <div className="col-md-5"></div>
+                </div>
                 <div className='col-md-6'>
-                    {/* empty buffer row, might not be needed */}
-                    <div className="row "></div>
                     <div className="row carouselcont">
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
-                        <div className="col-md-8">
-                            <Carousel slide={false} interval= {null} className="shadow">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
+                            <Carousel slide={false} interval= {null} className="shadow" >
                                 <Carousel.Item>
-                                    <img className="d-block w-100 workimg" src="../images/weatherfive.png" alt="Recibeet project logo, displaying a happy beet with a chefs hat"/>
+                                    <img className="d-block w-100 workimg" src="../images/wflogo.svg" alt="Recibeet project logo, displaying a happy beet with a chefs hat"/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img className="d-block w-100" src="holder.js/800x400?text=Second slide&bg=282c34" alt="Second slide"/>
+                                    <img className="d-block w-100 workimg" src="../images/wfhome.svg" alt="Second slide"/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=20232a" alt="Third slide"/>
+                                    <img className="d-block w-100 workimg" src="../images/wfday.svg" alt="Third slide"/>
                                 </Carousel.Item>
                             </Carousel>
                         </div>
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
+                        <div className="col-md-1"></div>
                     </div>
                 </div>
-                {/* this is the second column, right */}
                 <div className="col-md-6">
-                    {/* empty buffer row, might not be needed */}
-                    <div className="row projtitle"><h2>Weather Five</h2></div>
+                    <div className="row projtitle"><p>Weather Five</p></div>
                     <div className="row projdesc">
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
-                        <div className="col-md-8">
-                            <p>
-                                <a href="https://kkelsei127.github.io/weatherFive/"><h5>Weather Five</h5></a>
-                                <p>A project utilizing the OpenWeather API, JavaScript, HTML, Bootstrap 
-                                Do you know what the weather is going to be like in your city for the next five days?
-                                Me neither! Check out this awesome work in progress!</p>
-                                <a href="https://github.com/kkelsei127/weatherFive"><i className="fa-brands fa-github" ></i></a>
-                            </p>
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
+                            <p>A project utilizing the OpenWeather API, JavaScript, HTML, Bootstrap.<br/>
+                            Do you know what the weather is going to be like in your city for the next five days?
+                            Me neither! With the help of the OpenWeather API, this project allows you to search for the weather
+                            forecast in any city and have your previous searches saved for quick easy access. Check out this 
+                            awesome work in progress! </p>
+                            <h5>
+                            <a href="https://github.com/kkelsei127/weatherFive"><i className="fa-brands fa-github" ></i></a>
+                            <a href="https://kkelsei127.github.io/weatherFive/"><i className="fa-solid fa-location-arrow"></i></a>
+                            </h5>
                         </div>
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
+                        <div className="col-md-1s"></div>
                     </div>             
                 </div>
             </div>
 {/* /////////////////////////////////ROW THREE///////////////////////// */}
             <div className="row rowcont">
-                {/* this is the first column, left */}
+                <div className="row unl">
+                    <div className="col-md-5"></div>
+                    <div className="col-md-2">
+                        <img src="../images/diamond.svg" className="d-block w-100 dmnd" alt="diamond with a line"/>      
+                    </div>
+                    <div className="col-md-5"></div>
+                </div>
                 <div className="col-md-6">
-                    {/* empty buffer row, might not be needed */}
-                    <div className="row projtitle"><h2>Beats and eats</h2></div>
+                    <div className="row projtitle"><p>Beats & Eats</p></div>
                     <div className="row projdesc">
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
-                        <div className="col-md-8">
-                            <p>
-                                <a href="https://shobannah.github.io/BeatsAndEats/"><h5>Beats and Eats</h5></a>
-                                <p>A team project created using Spotify and Google Maps API, Javascript, AJAX and Tailwind CSS
-                                Jam to your favorite tunes while you search for food in your area!</p>
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
+                            <p>A team build created using Spotify and Google Maps API, JavaScript, AJAX and Tailwind.<br/>
+                            Built for the hungriest of students, initially the Google Maps API loads places near you to study,
+                            select your favorite tunes via genre and then look for food nearest you! You can search 
+                            for food based off your latest craving! Want to skip the current song? Need to pause the music to 
+                            order food? The Spotify API call features all this and more.</p>
+                            <h5>
                                 <a href="https://github.com/shobannah/BeatsAndEats"><i className="fa-brands fa-github" ></i></a>
-
-                            </p>
+                                <a href="https://shobannah.github.io/BeatsAndEats/"><i className="fa-solid fa-location-arrow"></i></a>
+                            </h5>
                         </div>
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
+                        <div className="col-md-1"></div>
                     </div>
                 </div>
-                {/* this is the second column, right */}
                 <div className='col-md-6'>
-                    {/* empty buffer row, might not be needed */}
                     <div className="row carouselcont"></div>
                     <div className="row">
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
-                        <div className="col-md-8">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
                         <Carousel slide={false} interval= {null} className="shadow">
                             <Carousel.Item>
-                                <img src="../images/Beatsandeats.png" className="d-block w-100" alt="Takeout container with headphones titled beats and eats"/> 
+                                <img src="../images/Beatsandeats.svg" className="d-block w-100 workimg" alt="Takeout container with headphones titled beats and eats"/> 
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className="d-block w-100" src="holder.js/800x400?text=Second slide&bg=282c34" alt="Second slide"/>
+                                <img className="d-block w-100 workimg" src="../images/beoverall.svg" alt="Second slide"/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=20232a" alt="Third slide" />
+                                <img className="d-block w-100 workimg" src="../images/besearch.svg" alt="Third slide" />
                             </Carousel.Item>
                             </Carousel>
                         </div>
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
+                        <div className="col-md-1"></div>
                     </div>
                 </div>     
             </div>
 {/* ///////////////////////////ROW FOUR//////////////////////////////////////////// */}
             <div className="row rowcont">
-                {/* this is the first column, left */}
+                <div className="row unl">
+                    <div className="col-md-5"></div>
+                    <div className="col-md-2">
+                        <img src="../images/diamond.svg" className="d-block w-100 dmnd" alt="diamond with a line"/>      
+                    </div>
+                    <div className="col-md-5"></div>
+                </div>
                 <div className='col-md-6'>
-                    {/* empty buffer row, might not be needed */}
                     <div className="row "></div>
                     <div className="row carouselcont">
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
-                        <div className="col-md-8 ">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
                             <Carousel slide={false} interval= {null} className="shadow">
                                 <Carousel.Item>
-                                <img src="../images/postedup.svg" className="d-block w-100" alt="Yellow post-it note with a red pushpin titled Posted Up"/>
+                                <img src="../images/postedup.svg" className="d-block w-100 workimg" alt="Yellow post-it note with a red pushpin titled Posted Up"/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img className="d-block w-100" src="holder.js/800x400?text=Second slide&bg=282c34" alt="Second slide"/>
+                                    <img className="d-block w-100 workimg" src="../images/puhome.svg" alt="Second slide"/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=20232a" alt="Third slide"/>
+                                    <img className="d-block w-100 workimg" src="../images/pupost.svg" alt="Third slide"/>
                                 </Carousel.Item>
                             </Carousel>
                         </div>
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
+                        <div className="col-md-1"></div>
                     </div>
                 </div>
-                {/* this is the second column, right */}
                 <div className="col-md-6">
-                    {/* empty buffer row, might not be needed */}
-                    <div className="row projtitle"><h2>Posted Up</h2></div>
+                    <div className="row projtitle"><p>Posted Up</p></div>
                     <div className="row projdesc">
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
-                        <div className="col-md-8">
-                            <a href="https://bloggingtech.herokuapp.com/"><h5>Posted Up</h5></a>
-                            <p>A full stack project created with MySQL, JavaScript, Handlebars, CSS, Bootstrap 
-                            A CMS style tech blog that allows users to log in and share their thoughts!</p>
-                            <a href="https://github.com/kkelsei127/blogging"><i className="fa-brands fa-github" ></i></a>
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
+                            <p>A full stack project created with MySQL, JavaScript, Handlebars, CSS, Bootstrap.<br/>
+                            We all have a lot to say in this day and age and this build is perfect for it. A CMS style tech blog that
+                            allows users to share their thoughts and add to other user's posts. Create an account or sign in to comment and 
+                            allow for full functionality.</p>
+                            <h5>
+                                <a href="https://github.com/kkelsei127/blogging"><i className="fa-brands fa-github" ></i></a>
+                                <a href="https://bloggingtech.herokuapp.com/"><i className="fa-solid fa-location-arrow"></i></a>
+                            </h5>
                         </div>
-                        {/* these are just to help center the col? */}
-                        <div className="col-md-2"></div>
+                        <div className="col-md-1"></div>
                     </div>             
                 </div>
             </div>                

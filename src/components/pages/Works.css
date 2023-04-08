@@ -19,8 +19,15 @@
 }
 .projtitle{
     padding-top: 110px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     text-align: center;
+    /* font-weight: 900; */
+    font-size: 35px;
+    font-family: 'Urbanist', sans-serif;
+    color:#496084;
+    /*cant decide between this color for text or this
+    color: #271c70fd;*/
+    
 }
 
 .projdesc{
@@ -33,5 +40,33 @@
 }
 
 .workimg{
-    height: 300px;
+    max-height: 700px;
+    max-width: 1300px;
 }
+
+.fa-solid{
+    padding-left: 20px;
+    padding-top:10px;
+    
+}
+i{
+    color: #7b99c5;
+}
+
+.unl{
+    text-align: center;
+    color: #496084;
+    padding: 10px;
+}
+
+.dmnd{
+    width: 200px;
+    height: 50px;
+}
+
+/* .carousel-indicators{
+    color: #920c6e;
+    fill: #;
+    background-color: #920c6e;
+} */
+

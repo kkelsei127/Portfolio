@@ -36,13 +36,10 @@
 	border-color: #496084;
 }
 
-.btn:hover{
+.send:hover{
 	background-color: #496084;
 }
 
-.fa-solid{
-	margin-left: 5px;
-}
 .text{
 	margin-left: 65px;
 	margin-top: 25px;

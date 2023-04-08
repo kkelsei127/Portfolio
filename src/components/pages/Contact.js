@@ -24,11 +24,11 @@ function Contact() {
                                 <label for="exampleFormControlTextarea1">Your Message</label>
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Have you heard the latest news?!"></textarea>
                             </div>
-                            <button className="btn btn-primary send" type="submit" value="Send!">Send!   <i class="fa-solid fa-envelope fa-bounce"></i></button>
+                            <button className="btn btn-primary send" type="submit" value="Send!">Send!   <i class="fa-solid fa-envelope fa-bounce" style={{color: "#FFFFFF", paddingLeft: "5px"}}></i></button>
                         </form>
                     </div>
                     <div className="col text">
-                        <h3>Let's talk about <span className="blue">everything</span></h3>
+                        <h3>Let's talk about <span className="blue">everything.</span></h3>
                         <br/>
                         <h6>Whether you have an idea that needs to come to life, a team that needs an extra hand, or you
                             just want to chit chat about your favorite recipes, drop me a line!

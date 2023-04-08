@@ -10,8 +10,8 @@ function Footer () {
                         </div>
                         <div className="col-sm icons">
                             <div className="icons">
-                            <a href="https://github.com/kkelsei127"><i class="fa-brands fa-github icon" ></i></a>
-                            <a href="https://www.linkedin.com/in/kelsei-kyser-767934b4/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/kkelsei127"><i class="fa-brands fa-github icon" style={{color: "#000000",}}></i></a>
+                            <a href="https://www.linkedin.com/in/kelsei-kyser-767934b4/"><i class="fa-brands fa-linkedin" style={{color: "#000000",}}></i></a>
                             </div>
                         </div>
                     </div>

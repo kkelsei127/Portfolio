@@ -49,9 +49,17 @@ function About() {
                     </div>           
                 </section>
             </div>
+            <div className="row">
+                        <div className="col-md-5"></div>
+                        <div className="col-md-2">
+                            <img src="../images/diamond.svg" className="d-block w-100 abtdmnd" alt="diamond with a line"/>  
+                        </div>
+                        <div className="col-md-5"></div>
+                    </div>
             
             <section className="proficiencies">
                 <div  className="row">
+                    
                     <div className="row">
                         <div className="col-sm-4">
                             <div className="prgcont shadow">
@@ -107,8 +115,9 @@ function About() {
                                 Most of my projects utilize a <span className="txt"> MERN </span> or a <span className="txt"> MEAN </span> stack, but I am always open to learning new
                                 technologies!<br/>
                                 <br/>
-                                I enjoy working with front end and agonizing over pixel <span className="txt">perfection </span> and getting the data to the user
-                                in an <span className="txt"> efficient </span> way utilizing backend frameworks.
+                                Whether it is agonizing over pixel <span className="txt">perfection </span> or getting data to the user
+                                in an <span className="txt"> efficient </span> way, I enjoy the unique challenges that front end and back end 
+                                development present.
                               </h5>
 
                         </div>

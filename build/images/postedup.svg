@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1400 615" style="enable-background:new 0 0 1400 615;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{clip-path:url(#SVGID_00000058570781187531551220000001814787881853320111_);fill:#AADEFF;}
+	
+		.st2{clip-path:url(#SVGID_00000058570781187531551220000001814787881853320111_);fill:#F8FF9F;stroke:#808080;stroke-miterlimit:10;}
+	.st3{clip-path:url(#SVGID_00000058570781187531551220000001814787881853320111_);fill:#FF0047;}
+	
+		.st4{clip-path:url(#SVGID_00000058570781187531551220000001814787881853320111_);fill:#FF0047;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	
+		.st5{clip-path:url(#SVGID_00000058570781187531551220000001814787881853320111_);fill:#DFE8FF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st6{clip-path:url(#SVGID_00000058570781187531551220000001814787881853320111_);}
+	.st7{fill:none;}
+	.st8{font-family:'InkFree';}
+	.st9{font-size:200px;}
+</style>
+<path class="st0" d="M-437.5-58.5"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="1400" height="615"/>
+	</defs>
+	<clipPath id="SVGID_00000009579332934932444390000014229568588208599431_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<rect x="-62" y="-71" style="clip-path:url(#SVGID_00000009579332934932444390000014229568588208599431_);fill:#AADEFF;" width="1834" height="747"/>
+	
+		<polygon style="clip-path:url(#SVGID_00000009579332934932444390000014229568588208599431_);fill:#F8FF9F;stroke:#808080;stroke-miterlimit:10;" points="
+		100.08,81.64 486.33,67.64 500.92,483.88 134.66,497.16 115.17,497.86 	"/>
+	<polyline style="clip-path:url(#SVGID_00000009579332934932444390000014229568588208599431_);fill:#FF0047;" points="339.08,97.9 
+		360.77,74.34 339,56.55 318.93,78.34 337.61,96.48 	"/>
+	
+		<path style="clip-path:url(#SVGID_00000009579332934932444390000014229568588208599431_);fill:#FF0047;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" d="
+		M335.34,48.78c1.87-2.26,12.28,3.37,19.53,10.02c7.26,6.67,13.94,16.74,12.08,19.01c-1.84,2.24-11.94-3.18-18.98-9.46
+		C340.29,61.47,333.44,51.07,335.34,48.78z"/>
+	
+		<path style="clip-path:url(#SVGID_00000009579332934932444390000014229568588208599431_);fill:#FF0047;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" d="
+		M312.95,76.01c1.78-2.14,11.45,3,18.16,9.13c6.72,6.15,12.85,15.5,11.07,17.64c-1.75,2.12-11.13-2.83-17.65-8.62
+		C317.43,87.84,311.15,78.18,312.95,76.01z"/>
+	
+		<polygon style="clip-path:url(#SVGID_00000009579332934932444390000014229568588208599431_);fill:#DFE8FF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" points="
+		322.97,84.53 333.17,94.16 312.35,117.52 302.53,117.42 302.15,107.89 	"/>
+	<g style="clip-path:url(#SVGID_00000009579332934932444390000014229568588208599431_);">
+		<rect x="187" y="126" class="st7" width="971" height="246"/>
+		<text transform="matrix(1 0 0 1 187 277.3975)" class="st8 st9">Posted Up.</text>
+	</g>
+</g>
+</svg>

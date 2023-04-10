@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import 'https://kit.fontawesome.com/e8b52d61f5.js';
+
 
 
 import App from './App.js';

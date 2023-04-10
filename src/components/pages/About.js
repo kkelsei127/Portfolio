@@ -36,7 +36,8 @@ function About() {
                                         <br/>
                                         <br/>                                        
                                     </h5>
-                                    <h5 style={styles.fontStyle}>You can download my resume <a id="resumelink" href="" download="kKyser.pdf">here</a>.</h5>
+                                    <h5 style={styles.fontStyle}>You can download my resume <a id="resumelink" href="./KKyser.jpg" download="KKyser.jpg">here</a>.</h5>
+                                    <a href="KKyser.jpg" download>Resume</a>
                                 </aside>
                             </div>
                             <div className="col">

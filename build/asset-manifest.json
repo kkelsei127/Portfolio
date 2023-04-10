@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.43b4cccf.css",
+    "main.js": "/static/js/main.5b24dace.js",
+    "static/js/787.27a00dcc.chunk.js": "/static/js/787.27a00dcc.chunk.js",
+    "static/media/KKyser.jpg": "/static/media/KKyser.a7f2da2d6d2676c16877.jpg",
+    "static/media/react-bootstrap-carousel.eot": "/static/media/react-bootstrap-carousel.1a0fe919ea31a13740d3.eot",
+    "static/media/react-bootstrap-carousel.ttf": "/static/media/react-bootstrap-carousel.f41331129badd2b01fc7.ttf",
+    "static/media/react-bootstrap-carousel.woff": "/static/media/react-bootstrap-carousel.96e0693824065d5b7d56.woff",
+    "static/media/react-bootstrap-carousel.svg": "/static/media/react-bootstrap-carousel.190d0d1bf1c865be7a1b.svg",
+    "index.html": "/index.html",
+    "main.43b4cccf.css.map": "/static/css/main.43b4cccf.css.map",
+    "main.5b24dace.js.map": "/static/js/main.5b24dace.js.map",
+    "787.27a00dcc.chunk.js.map": "/static/js/787.27a00dcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43b4cccf.css",
+    "static/js/main.5b24dace.js"
+  ]
+}

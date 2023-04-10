@@ -13,18 +13,18 @@ function Contact() {
                     <div className="col">
                         <form>
                             <div className="form-group">
-                                <label for="exampleFormControlInput1">Name</label>
-                                <input type="name" className="form-control" id="exampleFormControlInput1" placeholder="Adam Duritz"/>
+                                <label for="name">Name</label>
+                                <input type="name" className="form-control" id="name" placeholder="Adam Duritz"/>
                             </div>
                             <div className="form-group">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="hello@kKyser.com"/>
+                                <label for="subject">Subject</label>
+                                <input type="subject" className="form-control" id="subject" placeholder="hello@kKyser.com"/>
                             </div>
                             <div className="form-group">
-                                <label for="exampleFormControlTextarea1">Your Message</label>
-                                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Have you heard the latest news?!"></textarea>
+                                <label for="body">Your Message</label>
+                                <textarea className="form-control" id="body" rows="3" placeholder="Have you heard the latest news?!"></textarea>
                             </div>
-                            <button className="btn btn-primary send" type="submit" value="Send!">Send!   <i class="fa-solid fa-envelope fa-bounce" style={{color: "#FFFFFF", paddingLeft: "5px"}}></i></button>
+                            {/* <a href={`mailto:hello@kkyser.com?subject=${subject}&body=${body}`} role="button" className="btn btn-lrg btn-primary send shadow">Send! <i class="fa-solid fa-envelope fa-bounce" style={{color: "#FFFFFF", paddingLeft: "5px"}}></i></a> */}
                         </form>
                     </div>
                     <div className="col text">

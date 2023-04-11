@@ -112,9 +112,10 @@
 }
 
 .home-content {
-	position: absolute;
+	/* position: absolute; */
 	width: 100%;
-	top: 40%;
+	margin-top: 25vh;
+	/* top: 40%; */
 	/* transform: translateY(-210%); */
 	text-align: center;
 	/* color: #fde7ff; */

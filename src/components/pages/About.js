@@ -1,4 +1,5 @@
 import './About.css';
+import Resume from '../../assets/kkyserresume.docx'
 
 const styles = {
     fontStyle: {
@@ -36,7 +37,7 @@ function About() {
                                         <br/>
                                         <br/>                                        
                                     </h5>
-                                    <h5 style={styles.fontStyle}>You can download my resume <a id="resumelink" href="./KKyser.jpg" download="KKyser.jpg">here</a>.</h5>
+                                    <h5 style={styles.fontStyle}>You can download my resume <a id="resumelink" href={Resume} download="kkyserresume">here</a>.</h5>
                                 </aside>
                             </div>
                             <div className="col">

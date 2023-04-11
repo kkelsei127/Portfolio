@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css'
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import Navigation from './components/Navbar';
 // import PortfolioContainer from "./components/PortfolioContainer";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/pages/About.js'
@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div>
-      <Navbar/>
+      <Navigation/>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/About" element={<About/>}/>

@@ -45,7 +45,7 @@
 	background-repeat: no-repeat;
     background-size: contain;
     max-width: 300px;
-	transform: translateX(115%);
+	/* transform: translateX(115%); */
 }
 
 .proficiencies{

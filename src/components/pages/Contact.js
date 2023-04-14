@@ -2,6 +2,7 @@ import './Contact.css';
 import React, {useState} from 'react';
 import axios from 'axios';
 import {validateEmail} from './helpers'
+import { FaEnvelope } from "react-icons/fa";
 
 function Contact() {
     const [formData, setFormData] = useState({name: '', email: '', body: ''})
@@ -19,7 +20,7 @@ function Contact() {
             setErrorMessage("Please be sure to fill out all the fields!");
             setTimeout(function(){
                 setErrorMessage("")
-            },2000)
+            },4000)
             //exit out of this
             return;
         } else{
@@ -48,8 +49,7 @@ function Contact() {
         <div className="dash">
             <div className="container wrapper">
                 <div className="row">
-                    <h3>Let's get in touch!</h3>
-                    {/* <h6>fill the form out below</h6> */}
+                    <h3>Wanna chat?</h3>
                 </div>
                 <div className="row contactform">
                     <div className="col">
@@ -69,7 +69,7 @@ function Contact() {
                                 <label for="body">Your Message</label>
                                 <textarea className="form-control" id="body" rows="3" name="body" onChange={handleInputChange} value={formData.body} placeholder="Have you heard the latest news?!"></textarea>
                             </div>
-                            <button type="submit" className="btn btn-lrg btn-primary send shadow">Send! <i class="fa-solid fa-envelope fa-bounce" style={{color: "#FFFFFF", paddingLeft: "5px"}}></i></button>
+                            <button type="submit" className="btn btn-lrg btn-primary send shadow">Send! <FaEnvelope className="envelope"/></button>
                         </form>
                     </div>
                     <div className="col text">

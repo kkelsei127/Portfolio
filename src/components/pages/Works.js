@@ -1,7 +1,8 @@
 import './Works.css';
 import Carousel from 'react-bootstrap/Carousel';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-
+import {AiFillGithub} from 'react-icons/ai';
+import { IoArrowRedo } from "react-icons/io5";
 
 function Works() {
     return (
@@ -19,8 +20,8 @@ function Works() {
                             recipe function to have it saved and displayed for other users! Each user profile features both their 
                             saved and personally created recipes!</p>
                             <h5>
-                                <a href="https://github.com/torresorona/ReciBEET"><i className="fa-brands fa-github" ></i></a>
-                                <a href="https://recibeet-2.herokuapp.com"><i className="fa-solid fa-location-arrow"></i></a>
+                                <a href="https://github.com/torresorona/ReciBEET"><AiFillGithub/></a>
+                                <a href="https://recibeet-2.herokuapp.com"><IoArrowRedo/></a>
                             </h5>
                             </div>
                         <div className="col-md-1"></div>
@@ -86,8 +87,8 @@ function Works() {
                             forecast in any city and have your previous searches saved for quick easy access. Check out this 
                             awesome work in progress! </p>
                             <h5>
-                            <a href="https://github.com/kkelsei127/weatherFive"><i className="fa-brands fa-github" ></i></a>
-                            <a href="https://kkelsei127.github.io/weatherFive/"><i className="fa-solid fa-location-arrow"></i></a>
+                            <a href="https://github.com/kkelsei127/weatherFive"><AiFillGithub/></a>
+                            <a href="https://kkelsei127.github.io/weatherFive/"><IoArrowRedo/></a>
                             </h5>
                         </div>
                         <div className="col-md-1s"></div>
@@ -114,8 +115,8 @@ function Works() {
                             for food based off your latest craving! Want to skip the current song? Need to pause the music to 
                             order food? The Spotify API call features all this and more.</p>
                             <h5>
-                                <a href="https://github.com/shobannah/BeatsAndEats"><i className="fa-brands fa-github" ></i></a>
-                                <a href="https://shobannah.github.io/BeatsAndEats/"><i className="fa-solid fa-location-arrow"></i></a>
+                                <a href="https://github.com/shobannah/BeatsAndEats"><AiFillGithub/></a>
+                                <a href="https://shobannah.github.io/BeatsAndEats/"><IoArrowRedo/></a>
                             </h5>
                         </div>
                         <div className="col-md-1"></div>
@@ -181,8 +182,8 @@ function Works() {
                             allows users to share their thoughts and add to other user's posts. Create an account or sign in to comment and 
                             allow for full functionality.</p>
                             <h5>
-                                <a href="https://github.com/kkelsei127/blogging"><i className="fa-brands fa-github" ></i></a>
-                                <a href="https://bloggingtech.herokuapp.com/"><i className="fa-solid fa-location-arrow"></i></a>
+                                <a href="https://github.com/kkelsei127/blogging"><AiFillGithub/></a>
+                                <a href="https://bloggingtech.herokuapp.com/"><IoArrowRedo/></a>
                             </h5>
                         </div>
                         <div className="col-md-1"></div>

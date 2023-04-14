@@ -23,7 +23,8 @@
 .icons{
 	width:110px;
 }
-.icon{
+
+a{
 	padding-right: 20px;
-	
+	color: #ce8cb1c1;
 }

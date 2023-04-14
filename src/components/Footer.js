@@ -1,4 +1,6 @@
 import './Footer.css';
+import {AiFillGithub} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
 
 function Footer () {
     return (
@@ -10,8 +12,8 @@ function Footer () {
                         </div>
                         <div className="col-sm icons">
                             <div className="icons">
-                            <a href="https://github.com/kkelsei127"><i class="fa-brands fa-github icon" style={{color: "#000000",}}></i></a>
-                            <a href="https://www.linkedin.com/in/kelsei-kyser-767934b4/"><i class="fa-brands fa-linkedin" style={{color: "#000000",}}></i></a>
+                            <a href="https://github.com/kkelsei127" style={{color: "#ce8cb1c1"}}><AiFillGithub/></a>
+                            <a href="https://www.linkedin.com/in/kelsei-kyser/" style={{color: "#ce8cb1c1"}}><AiFillLinkedin/></a>
                             </div>
                         </div>
                     </div>

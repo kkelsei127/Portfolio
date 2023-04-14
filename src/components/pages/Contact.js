@@ -25,10 +25,7 @@ function Contact() {
             return;
         } else{
             setErrorMessage("")
-        }
-        // if (!body) {
-
-        
+        }        
         try{
             axios
             .post("https://getform.io/f/47e86798-253c-4857-aebc-738d3a56fe3f", {

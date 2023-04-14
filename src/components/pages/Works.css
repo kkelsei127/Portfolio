@@ -21,7 +21,6 @@
     padding-top: 110px;
     padding-bottom: 10px;
     text-align: center;
-    /* font-weight: 900; */
     font-size: 35px;
     font-family: 'Urbanist', sans-serif;
     color:#496084;
@@ -55,11 +54,6 @@
     height: 50px;
 }
 
-/* .carousel-indicators{
-    color: #920c6e;
-    fill: #;
-    background-color: #920c6e;
-} */
 a {
 	padding-right: 20px;
     color: #496084;

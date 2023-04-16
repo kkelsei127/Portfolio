@@ -148,7 +148,7 @@ function Works() {
                 <div className="row unl">
                     <div className="col-md-5"></div>
                     <div className="col-md-2">
-                        <img src="../images/diamond.svg" className="d-block w-100 dmnd" alt="diamond with a line"/>      
+                        <img src="../../images/diamond.svg" className="d-block w-100 dmnd" alt="diamond with a line"/>      
                     </div>
                     <div className="col-md-5"></div>
                 </div>

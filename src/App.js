@@ -3,10 +3,10 @@ import './App.css'
 import Footer from './components/Footer';
 import Navigation from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './components/pages/About.js'
-import Homepage from './components/pages/Homepage';
-import Works from './components/pages/Works';
-import Contact from './components/pages/Contact';
+import About from './components/pages/About/About.js'
+import Homepage from './components/pages/Homepage/Homepage';
+import Works from './components/pages/Works/Works';
+import Contact from './components/pages/Contact/Contact';
 
 
 function App() {

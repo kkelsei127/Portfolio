@@ -1,7 +1,7 @@
 import './Contact.css';
 import React, {useState} from 'react';
 import axios from 'axios';
-import {validateEmail} from './helpers'
+import {validateEmail} from "../helpers"
 import { FaEnvelope } from "react-icons/fa";
 
 function Contact() {

@@ -1,5 +1,5 @@
 .carousel{
-	margin: 15px;
+	margin: 2vh;
 }
 .dash{
     border-style: dashed;
@@ -11,17 +11,17 @@
     padding-bottom: 45px;
 }
 .rowcont{
-    padding-bottom: 100px;
+    padding-bottom: 10vh;
 }
 
 .row2{
     background-color: #adc9f4;
 }
 .projtitle{
-    padding-top: 110px;
-    padding-bottom: 10px;
+    padding-top: 15vh;
+    padding-bottom: 1vh;
     text-align: center;
-    font-size: 35px;
+    font-size: 5vh;
     font-family: 'Urbanist', sans-serif;
     color:#496084;
     /*cant decide between this color for text or this
@@ -34,7 +34,7 @@
 }
 
 .carouselcont{
-    padding-top: 70px;
+    padding-top: 10vh;
 
 }
 
@@ -46,15 +46,15 @@
 .unl{
     text-align: center;
     color: #496084;
-    padding: 10px;
+    padding: 1vh;
 }
 
 .dmnd{
-    width: 200px;
-    height: 50px;
+    width: 10vh;
+    height: 10vh;
 }
 
 a {
-	padding-right: 20px;
+	padding-right: 3vh;
     color: #496084;
 }

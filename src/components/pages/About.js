@@ -119,7 +119,7 @@ function About() {
                         <div className='row'>
                             <div className='row'>
                                 <h5>
-                                    Most of my projects utilize a <span className="txt"> MERN </span> or a <span className="txt"> MEAN </span> stack, but I am always open to learning new
+                                    Most of my projects utilize a <span className="txt"> MERN </span> stack, but I am always open to learning new
                                     technologies!<br/>
                                     </h5>
                             </div>

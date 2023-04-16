@@ -87,8 +87,8 @@
 }
 
 .abtdmnd{
-    width: 200px;
-    height: 50px;
+    width: 10vh;
+    height: 10vh;
 }
 
 #resumelink{
@@ -96,6 +96,18 @@
 	font-family: 'Caveat', cursive;
 	font-size: 28px;
 	color:#496084;
+	margin-left: 2px;
+	margin-right: 2px;
+	line-height: 1.0;
+	text-decoration: underline;
+}
+
+
+#resumelink:hover{
+	font-weight: 600;
+	font-family: 'Caveat', cursive;
+	font-size: 28px;
+	color:#aa66c9;
 	margin-left: 2px;
 	margin-right: 2px;
 	line-height: 1.0;

@@ -49,7 +49,7 @@ function Contact() {
                     <h3 className='intro'>Want to chat?</h3>
                 </div>
                 <div className="row contactform">
-                    <div className="col">
+                    <div className="col-md-7">
                         <form onSubmit={handleFormSubmit}>
                             {errorMessage && ( 
                                 <p>{errorMessage}</p>
@@ -69,7 +69,7 @@ function Contact() {
                             <button type="submit" className="btn btn-lrg btn-primary send shadow">Send! <FaEnvelope className="envelope"/></button>
                         </form>
                     </div>
-                    <div className="col text">
+                    <div className="col-md-5 text">
                         <h3>Let's talk about <span className="blue">everything.</span></h3>
                         <br/>
                         <h6>Whether you have an idea that needs to come to life, a team that needs an extra hand, or you

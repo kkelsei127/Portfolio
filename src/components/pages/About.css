@@ -11,63 +11,62 @@
 }
 
 .about{
-	margin-top: 25px;
+	margin-top: 5vh;
 }
 .abthead{
 	font-weight: 600;
 	font-family: 'Caveat', cursive;
 	margin-top: 20px;
 	color:#6986b1;
-	font-size: 60px;
-	padding-bottom: 10px;
+	font-size: 7vh;
+	padding-bottom: 1vh;
 }
 
 .txt{
 	font-weight: 600;
 	font-family: 'Caveat', cursive;
-	font-size: 28px;
+	font-size: 4vh;
 	color:#496084;
 	margin-left: 2px;
 	margin-right: 2px;
 	line-height: 1.0;
 }
 
-.photocont{
-	margin-top: 135px;
-    border-radius: 50%;
-}
-
 #img{
-	height: 350px;
+	height: 50vh;
 	background: url('./KKyser.jpg') center center no-repeat;
 	background-repeat: no-repeat;
     background-size: contain;
-    max-width: 300px;
+    /* max-width: 300px; */
+	margin-top: 15vh;
 }
 
 .proficiencies{
-	margin-top: 85px;
-	padding-bottom: 30px;
+	margin-top: 15vh;
+	padding-bottom: 15vh;
+	justify-content: space-between;
 }
 
 .prgcont{
-	max-width: 270px;
-	margin-top: 30px;
-	margin-bottom: 45px;
-	padding-top: 10px;
-	margin-left: 140px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+.prg{
+	max-width: 40vh;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	padding-top: 2vh;
 	background-color: #FFEBFA;
-	
 }
 
 .prghead{
-	max-width: 800px;
+	max-width: 75vh;
 	background-color: #adc9f4;
 	border-style: solid;
 	border-color: #f5e4eb;
-	padding-top: 25px;
-	padding-left: 25px;
-	margin-left: 50px;
+	padding: 3vh;
 	border-radius: 25px;
 }
 

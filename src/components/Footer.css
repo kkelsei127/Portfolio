@@ -15,19 +15,20 @@
 	border-left: none;
 	border-top: none;
 	border-bottom: none;
-	width: fit-content;
+	width: 80%;
 	margin-top: 1vh;
+	font-size: 2vh;
+	margin-bottom:1vh;
 }
 
 .icons{
-	width: 12vh;
 	display: flex;
 	flex-direction: row;
-	
+	width:20%;
 }
 
 .icons a{
-	padding-left: 1vh;
+	/* padding-left: 1vh; */
 	color: #b06a92c1;
 	align-items: center;
 }

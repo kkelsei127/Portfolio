@@ -43,7 +43,7 @@ function About() {
                                     </h5>
                                 </div>
                                 <div className="row">
-                                    <h5 style={styles.fontStyle}>You can download my resume <a id="resumelink" href={Resume} download="kkyserresume">here.</a></h5>
+                                    <h5 style={styles.fontStyle}>You can download my resume <a id="resumelink" href={Resume} download="kkyserresume">here</a></h5>
                                 </div>
                             </div>
                             <div className="col-md-6">

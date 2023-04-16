@@ -46,7 +46,7 @@ function Contact() {
         <div className="dash">
             <div className="container wrapper">
                 <div className="row">
-                    <h3>Wanna chat?</h3>
+                    <h3 className='intro'>Want to chat?</h3>
                 </div>
                 <div className="row contactform">
                     <div className="col">

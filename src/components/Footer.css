@@ -2,7 +2,7 @@
 ~~~~~~~~~FOOTER SECTION~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .footer{
-	margin-top: 17px;
+	margin-top: 5vh;
 	display: flex;
 	justify-content: center;
 	bottom: 0;
@@ -11,19 +11,23 @@
 }
 .ftr{
 	border-style: solid;
-	border-color: #004A46;
+	border-color: #00344a;
 	border-left: none;
 	border-top: none;
 	border-bottom: none;
-	width: 645px;
-	margin-bottom: 5px;
+	width: fit-content;
+	margin-top: 1vh;
 }
 
 .icons{
-	width:110px;
+	width: 12vh;
+	display: flex;
+	flex-direction: row;
+	
 }
 
-a{
-	padding-right: 20px;
-	color: #ce8cb1c1;
+.icons a{
+	padding-left: 1vh;
+	color: #b06a92c1;
+	align-items: center;
 }

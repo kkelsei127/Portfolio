@@ -189,7 +189,55 @@ function Works() {
                         <div className="col-md-1"></div>
                     </div>             
                 </div>
-            </div>                
+            </div>  
+{/* ///////////////////////////ROW FIVE//////////////////////////////////////////// */}     
+            <div className="row rowcont">
+                <div className="row unl">
+                    <div className="col-md-5"></div>
+                    <div className="col-md-2">
+                        <img src="../../images/diamond.svg" className="d-block w-100 dmnd" alt="diamond with a line"/>      
+                    </div>
+                    <div className="col-md-5"></div>
+                </div>
+                <div className='col-md-6'>
+                    <div className="row "></div>
+                    <div className="row carouselcont">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
+                            <Carousel slide={false} interval= {null} className="shadow">
+                                <Carousel.Item>
+                                <img src="../images/onlyDevslogin.png" className="d-block w-100 workimg" alt="OnlyDevs login page"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="d-block w-100 workimg" src="../images/onlydevsCJ.png" alt="OnlyDevs create job page"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="d-block w-100 workimg" src="../images/onlydevsjoblist.png" alt="Job feed"/>
+                                </Carousel.Item>
+                            </Carousel>
+                        </div>
+                        <div className="col-md-1"></div>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="row projtitle"><p>OnlyDevs</p></div>
+                    <div className="row projdesc">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
+                            <p>A full stack project created with MongoDB, JavaScript, CSS, Tailwind, GraphQL, Apollo.<br/>
+                            When looking for the right spot for freelance work it can get a bit tidious. Cue OnlyDevs. The one stop
+                            shop for all things for developers. Here users can log in and create jobs for other freelancers or apply for
+                            jobs! Get started in your freelance work today with OnlyDevs!</p>
+                            <h5>
+                                <a href="https://github.com/kkelsei127/OnlyDev"><AiFillGithub/></a>
+                                
+                            </h5>
+                        </div>
+                        <div className="col-md-1"></div>
+                    </div>             
+                </div>
+            </div> 
+
         </div> 
     );
 }

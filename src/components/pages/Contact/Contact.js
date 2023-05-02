@@ -16,7 +16,7 @@ function Contact() {
     const handleFormSubmit = (e) =>{
         e.preventDefault();
         //if the email is invalid or no name / message then prompt user to enter deets
-        if (!validateEmail(e.target.email) || !e.target.name || !e.target.body) {
+        if (!e.target.email.value || !e.target.name.value || !e.target.body.value) {
             setErrorMessage("Please be sure to fill out all the fields!");
             setTimeout(function(){
                 setErrorMessage("")
